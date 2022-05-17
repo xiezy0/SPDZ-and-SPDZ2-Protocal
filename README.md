@@ -1,7 +1,5 @@
 # SPDZ-and-SPDZ2-Protocal
 
-![Go tests](https://github.com/ldsec/lattigo/actions/workflows/ci.yml/badge.svg)
-
 Golang版本的MPC协议SPDZ与其改进版本。采用 [Lattigo同态库](https://github.com/tuneinsight/lattigo) 的分布式dBFV实现Offline阶段Beaver三元组的生成。改进版本的SPDZ协议使用新的编码方案批量打包Beaver三元组。通信均采用go语言协程通信。
 
 - RNS域的转换：rns.go
